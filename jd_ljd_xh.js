@@ -44,7 +44,7 @@ if($.isNode()){
 
 function taskUrl_xh(functionId, body){
     return {
-        "url": `https://api.m.jd.com/client.action?functionId=${functionId}&body=${encodeURIComponent(body)}&appid=ld&client=m&clientVersion=9.4.4`,
+        "url": `https://mapi.m.jd.com/client.action?functionId=${functionId}&body=${encodeURIComponent(body)}&appid=ld&client=m&clientVersion=9.4.4`,
         'headers': {
             'Cookie': cookie,
             'UserAgent': 'User-Agent: jdapp;JD4iPhone/167724 (iPhone; iOS 15.0; Scale/3.00)',
